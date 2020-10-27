@@ -51,6 +51,20 @@
 		  "kind": "build",
 		  "isDefault": true
 		}
+	  },
+	  {
+		"type": "shell",
+		"label": "clang++ run active file",
+		"command": "./${fileBasenameNoExtension}",
+		"args": [],
+		"options": {
+		  "cwd": "${workspaceFolder}"
+		},
+		"problemMatcher": [],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
 	  }
 	]
   }

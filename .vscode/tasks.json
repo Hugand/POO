@@ -55,7 +55,7 @@
 	  {
 		"type": "shell",
 		"label": "clang++ run active file",
-		"command": "./${fileBasenameNoExtension}",
+		"command": "echo ${fileBasenameNoExtension} && ./${fileBasenameNoExtension}",
 		"args": [],
 		"options": {
 		  "cwd": "${workspaceFolder}"

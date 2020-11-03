@@ -21,7 +21,6 @@ public:
     int getY() { return y; }
 
     float dist(Ponto p) const;
-
     string getAsString() const;
 };
 

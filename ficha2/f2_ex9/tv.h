@@ -7,7 +7,6 @@
 
 using namespace std;
 
-
 class TV{
     static const int V_MAX = 10, V_MIN = 0;
     vector<string> canais;

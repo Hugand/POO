@@ -24,8 +24,6 @@ bool Desenho::addR(Retangulo r) {
 int Desenho::areaTotal() const {
     int totalArea = 0;
     
-    vector<Retangulo>::iterator it;
-
     for(auto it = v.begin(); it < v.end(); it++) {
         totalArea += it->getArea();
     }

@@ -31,7 +31,7 @@ public:
         v.clear();
 
         for(int i = 0; i < c.v.size(); i++)
-            addContacto(ref.v[i]->getNome(), ref.v[i]->getTel());
+            addContacto(c.v[i]->getNome(), c.v[i]->getTel());
 
         return *this;
     }
